@@ -1,0 +1,576 @@
+/* fonts */
+
+@font-face {
+    font-family: Brandon_bld;
+    src: url(/fonts/Brandon_bld.otf);
+}
+
+@font-face {
+    font-family: Brandon_light;
+    src: url(/fonts/Brandon_light.otf);
+}
+
+@font-face {
+    font-family: Brandon_med;
+    src: url(/fonts/Brandon_med.otf);
+}
+
+@font-face {
+    font-family: Brandon_reg;
+    src: url(/fonts/Brandon_reg.otf);
+}
+
+@font-face {
+    font-family: Cubano;
+    src: url(/fonts/Cubano.ttf);
+}
+
+body {
+    font-family: Brandon_reg;
+}
+
+/* header start */
+
+header {
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header_top {
+    padding: 30px 0;
+}
+
+.logo {
+    font-family: Cubano;
+    font-size: 25px;
+    color: white;
+    width: 20%;
+    float: left;
+    position: relative;
+    padding-left: 40px;
+}
+
+.logo img {
+    position: absolute;
+    left: 0;
+
+}
+
+.menu {
+    width: 60%;
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    text-decoration: none;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    font-family: Brandon_med;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: .5s;
+}
+
+.menu ul li a:hover {
+    color: #e0e0e0;
+}
+
+.header_text {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header_text h2 {
+    font-family: Brandon_light;
+    font-size: 32px;
+    color: #e0e0e0;
+    margin: 0;
+
+}
+
+.header_text h1 {
+    font-family: Brandon_bld;
+    font-size: 66px;
+    color: white;
+    margin: 0;
+}
+
+.btn {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.btn button {
+    font-family: Brandon_bld;
+    font-size: 23px;
+    border-style: none;
+    color: white;
+    padding: 20px 60px;
+    border: 5px solid white;
+    background: transparent;
+    transition: .5s;
+}
+
+.btn button:hover {
+    background: darkgray;
+    color: #e0e0e0;
+}
+
+/* header end */
+
+/* web start */
+.dev {
+    padding: 70px 0;
+
+}
+
+.dev_text {
+    width: 65%;
+    float: left;
+}
+
+.dev_text h1,
+.identity h1 {
+    font-family: Brandon_light;
+    font-size: 60px;
+    margin: 0;
+}
+
+.bold {
+    font-family: Brandon_bld;
+
+}
+
+.dev_text p,
+.identity p {
+    font-family: Brandon_reg;
+    font-size: 18px;
+    color: #777777;
+}
+
+.dev_img {
+    width: 25%;
+    float: right;
+    padding-top: 20px;
+}
+
+.dev_img img {
+    width: 100%;
+}
+
+/* web end */
+/* id start */
+
+.identity {
+    padding: 60px 0;
+    background: #FAFAFA;
+}
+
+.identity_text {
+    width: 65%;
+    float: right;
+}
+
+.identity_img {
+    width: 25%;
+    float: left;
+    padding-top: 40px;
+}
+
+.identity_img img {
+    width: 100%;
+}
+
+/* id end */
+/* services start */
+.services {
+    padding: 40px 0;
+}
+
+.services_single {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.services_single_img {
+    width: 20%;
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+
+}
+
+.services_single_icon {
+    width: 75px;
+    height: 75px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 72px;
+    background: #222222;
+    color: white;
+    float: left;
+}
+
+.services_single_text {
+    width: 70%;
+    float: left;
+}
+
+.services_single_text h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.services_single_text p {
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+/* services end */
+/* clients start */
+.clients {
+    background: #FAFAFA;
+    padding: 60px 0;
+}
+
+.clients_header {
+    text-align: center;
+}
+
+.clients_header h1 {
+    font-size: 60px;
+    margin: 0;
+    line-height: 60px;
+    font-family: Brandon_light;
+}
+
+.clients_header p {
+    font-size: 22px;
+    margin: 0;
+
+}
+
+.clients_single {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.clients_img_left {
+    width: 20%;
+    float: left;
+}
+
+.clients_img_left img {
+    width: 100%;
+}
+
+.clients_icon {
+    margin: 0 auto;
+}
+
+.clients_text_right {
+    width: 70%;
+    float: right;
+    margin: 10px;
+    padding: 30px;
+    position: relative;
+    background: white;
+    border-radius: 10px;
+}
+
+.clients_text_right:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 10px solid transparent;
+    border-right: 20px solid white;
+    border-bottom: 10px solid transparent;
+    top: 70px;
+    right: 100%;
+}
+
+.clients_text_left {
+    width: 70%;
+    float: left;
+    margin: 10px;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.clients_text_left:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 20px solid white;
+    position: absolute;
+    top: 70px;
+    left: 100%;
+}
+
+.clients_img_right {
+    float: right;
+    width: 20%;
+}
+
+.clients_img_right img {
+    width: 100%;
+}
+
+.msg {
+    font-size: 26px;
+    color: #777777;
+    margin: 0 20px;
+    padding: 0 20px 10px;
+}
+
+.name {
+    font-size: 26px;
+    color: #7690c5;
+    margin: 0;
+    padding: 0 40px;
+}
+
+/* clients end */
+/* logos start */
+.logos {
+    padding: 60px 0;
+}
+
+.logos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logos ul li {
+    float: left;
+    padding: 10px 20px;
+}
+
+/* logos end */
+/* team start */
+.team {
+    background: #111111;
+    color: white;
+    padding: 30px 0;
+}
+
+.team_heading {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.team_heading h1 {
+    font-family: Brandon_light;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.team_heading p {
+    font-family: Brandon_reg;
+    font-size: 22px;
+    color: #777777;
+    margin: 0;
+
+}
+
+.member {
+    width: 33%;
+    float: left;
+}
+
+.member_img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.member_img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.member_info {
+    text-align: center;
+}
+
+.member_name {
+    font-family: Brandon_bld;
+    font-size: 18px;
+    margin: 20px 0 0;
+}
+
+.member_work {
+    margin: 0;
+}
+
+.member_social {
+    width: 140px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.member_social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.member_social ul li {
+    float: left;
+    margin-right: 6%;
+}
+
+.member_social ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border: 3px solid white;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: .5s;
+}
+
+.member_social ul li:last-child {
+    margin-right: 0;
+}
+
+.twitter:hover {
+    border-style: hidden;
+    color: #1DA1F2;
+}
+
+.facebook:hover {
+    border-style: hidden;
+    color: #4267B2;
+}
+
+.pinterest:hover {
+    border-style: hidden;
+    color: #e22461;
+}
+
+/* team end */
+/* contact start */
+.contact {
+    background: #7690c5;
+    color: white;
+    padding: 70px 0;
+}
+
+.contact_info {
+    box-sizing: border-box;
+}
+
+.contact_heading {
+    padding-bottom: 40px;
+}
+
+.contact_heading h1 {
+    font-family: Brandon_light;
+    font-size: 60px;
+    margin: 0;
+}
+
+.contact_heading p {
+    font-family: Brandon_reg;
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.contact_with {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    padding: 0;
+}
+
+.contact_single {
+    font-family: Brandon_reg;
+    font-size: 18px;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.contact_single i {
+    margin-right: 10px;
+}
+
+/* contact end */
+/* form start */
+.contact_form {
+    width: 45%;
+    float: right;
+
+}
+
+.name_input,
+.email_input {
+    width: 100%;
+    font-size: 22px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+#comments {
+    font-size: 22px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+/* form end */
+/* footer start */
+footer {
+    background: #7690C5;
+}
+
+footer .wrapper,
+.ft {
+    border-top: 1px solid #87A0D2;
+    padding: 10px 0;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+}
+
+/* footer end */
