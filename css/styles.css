@@ -27,6 +27,8 @@
 
 body {
     font-family: Brandon_reg;
+    margin: 0;
+    padding: 0;
 }
 
 /* header start */
@@ -470,17 +472,14 @@ header {
 }
 
 .twitter:hover {
-    border-style: hidden;
     color: #1DA1F2;
 }
 
 .facebook:hover {
-    border-style: hidden;
     color: #4267B2;
 }
 
 .pinterest:hover {
-    border-style: hidden;
     color: #e22461;
 }
 
@@ -554,6 +553,20 @@ header {
     margin: 10px 0;
     width: 100%;
 
+}
+
+.buttonf {
+    font-family: Brandon_reg;
+    font-size: 22px;
+    padding: 10px 30px;
+    width: 100%;
+    transition: .5s;
+    background: white;
+
+}
+
+.buttonf:hover {
+    color: #777777;
 }
 
 /* form end */
